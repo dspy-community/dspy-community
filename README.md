@@ -19,8 +19,8 @@ pip install dspy-community[session,template-adapter]
 
 | Extra | Package | Description |
 |---|---|---|
-| `session` | [dspy-session](https://github.com/MaximeRivest/dspy-session) | Multi-turn session wrapper — turn any module into a stateful conversation with optimizer-ready linearization |
-| `template-adapter` | [dspy-template-adapter](https://github.com/MaximeRivest/dspy-template-adapter) | Exact-fidelity prompt templates with full control over messages |
+| `session` | [dspy-session](https://github.com/dspy-community/dspy-session) | Multi-turn session wrapper — turn any module into a stateful conversation with optimizer-ready linearization |
+| `template-adapter` | [dspy-template-adapter](https://github.com/dspy-community/dspy-template-adapter) | Exact-fidelity prompt templates with full control over messages |
 | `profiles` | [dspy-profiles](https://github.com/nielsgl/dspy-profiles) | Configuration profiles via TOML files — switch between models, retrieval settings, and environments |
 
 ## Contributing
