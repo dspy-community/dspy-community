@@ -34,15 +34,15 @@ dependencies = [
 session = ["dspy-session>=0.1.0"]
 template-adapter = ["dspy-template-adapter>=0.2.0"]
 profiles = ["dspy-profiles>=0.4.0"]
-attachments = ["attachments>=0.20.0"]
-# spotlighting = ["dspy-spotlighting>=0.1.0"]  # uncomment when published to PyPI
+# attachments = ["attachments>=0.20.0"]  # planned
+# spotlighting = ["dspy-spotlighting>=0.1.0"]  # planned
 
 all = [
     "dspy-session>=0.1.0",
     "dspy-template-adapter>=0.2.0",
     "dspy-profiles>=0.4.0",
-    "attachments>=0.20.0",
-    # "dspy-spotlighting>=0.1.0",  # uncomment when published to PyPI
+    # "attachments>=0.20.0",  # planned
+    # "dspy-spotlighting>=0.1.0",  # planned
 ]
 
 dev = [
