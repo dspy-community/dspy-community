@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dspy-community"
+version = "0.1.0"
+description = "The DSPy community meta-package — install dspy and curated community libraries in one go."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "DSPy Community"},
+    {name = "Maxime Rivest", email = "mrive052@gmail.com"},
+]
+keywords = ["dspy", "llm", "ai", "community", "meta-package"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+    "dspy>=2.6",
+]
+
+[project.optional-dependencies]
+session = ["dspy-session>=0.1.0"]
+template-adapter = ["dspy-template-adapter>=0.2.0"]
+profiles = ["dspy-profiles>=0.4.0"]
+attachments = ["attachments>=0.20.0"]
+# spotlighting = ["dspy-spotlighting>=0.1.0"]  # uncomment when published to PyPI
+
+all = [
+    "dspy-session>=0.1.0",
+    "dspy-template-adapter>=0.2.0",
+    "dspy-profiles>=0.4.0",
+    "attachments>=0.20.0",
+    # "dspy-spotlighting>=0.1.0",  # uncomment when published to PyPI
+]
+
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/dspy-community/dspy-community"
+Repository = "https://github.com/dspy-community/dspy-community"
+Issues = "https://github.com/dspy-community/dspy-community/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
