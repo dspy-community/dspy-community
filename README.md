@@ -1,6 +1,12 @@
-# dspy-community
+<p align="center">
+  <img src="logo-dspy-community.png" alt="DSPy Community" width="200"/>
+</p>
 
-The DSPy community meta-package — install [DSPy](https://github.com/stanfordnlp/dspy) and curated community libraries in one go.
+<h1 align="center">dspy-community</h1>
+
+<p align="center">
+  The DSPy community meta-package — install <a href="https://github.com/stanfordnlp/dspy">DSPy</a> and curated community libraries in one go.
+</p>
 
 ## Install
 
